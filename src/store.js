@@ -3,6 +3,6 @@ import loggerMiddleware from "./loggerMiddleware.js";
 
 import financeReducer from "./financeReducer.js";
 
-const store = createStore(financeReducer, applyMiddleware(loggerMiddleware));
+const store = createStore(financeReducer, applyMiddleware(loggerMiddleware))
 
-export default store;
+export default store
